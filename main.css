@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    height: 95vh;
+    font-family: 'Montserrat', sans-serif;
+    background: #1E1E1E;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 5em;
+    padding: 1px 25px;
+    background: #24202d;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  li a {
+    text-decoration: none;
+    margin-left: 2.5em;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+  .block1{
+    margin-top: 7em;
+    margin-left: 7em;
+    margin-right: 7em;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tpod1, .tpod2 .tpod3{
+    display: flex; 
+    flex-direction: column;
+    justify-content: right;
+  }
+  .text1{
+    margin-top: 2em;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(255, 255, 255)
+  }
+  .podtext1, .podtext2{
+    margin-top: -2em;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(164, 163, 163)
+  }
+  .photo{
+    border-radius: 10px 10px 10px 10px;
+  }
+  .Aboutmy{
+    margin-top: 8em;
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    color: rgb(255, 255, 255)
+  }
+  .photo2{
+    margin-top: 1em;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    height: 410px;
+    width: 600px;
+    left: 1em;
+  }
+  .text2, .text4 {
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .text3{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .name{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(255, 255, 255)
+  }
+
+  .Works, .Blog, .Reviews{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    color: rgb(255, 255, 255)
+  }
+
+ .zna1{
+    text-align: center;
+    border-radius: 20px 20px 20px 0;
+    padding: 20px;
+    color: rgb(255, 255, 255)
+  }
+  .zna1:hover{
+    background: rgb(170, 165, 165);
+  }
+
+  .zag{
+    font-weight: 600;
+    font-size: 20px;
+
+  }
+
+  .pin{
+    border-radius: 15px 15px 15px 0;
+  }
