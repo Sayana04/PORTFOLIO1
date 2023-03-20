@@ -14,20 +14,23 @@ header {
     border-radius: 16px;
     font-weight: 600;
     font-size: 20px;
+    border-color: rgba(123, 74, 226, 0.1);
+    border-width: 1px;
+    border-style: solid;
   }
   .nav-menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
   }
-  li a {
+  .menu a {
     text-decoration: none;
     margin-left: 2.5em;
     font-weight: 300;
     color: rgb(255, 255, 255);
     font-size: 15px;
   }
-  li a:hover{
+  .menu a:hover{
     content: "";
     color: rgba(123, 74, 226, 0.5);
   }
@@ -124,13 +127,12 @@ header {
 
 
  .zna1{
-    text-align: center;
     border-radius: 16px;
     padding: 20px;
     width: 360px;
     color: rgb(255, 255, 255);
     border-color: rgba(123, 74, 226, 0.1);
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
   }
   .zna1:hover{
@@ -145,6 +147,7 @@ header {
 
   .pin{
     border-radius: 10px;
+    margin-left: 3.5em;
     margin-top: 6em;
     width: 230px;
   }
